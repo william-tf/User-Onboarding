@@ -24,7 +24,7 @@ export default function Form(props){
                 Accept the Terms and Conditions:
             <input onChange={change} checked={form.terms} type="checkbox" name="terms" />
             </label>
-            <button disabled={disabled} >Submit</button>
+            <button  disabled={disabled} name="submit" >Submit</button>
             </form>
             
             </div>
